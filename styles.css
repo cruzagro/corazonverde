@@ -1,68 +1,65 @@
 body {
-    margin: 0;
-    font-family: 'Segoe UI', sans-serif;
-    background: #ffffff;
-    color: #333;
+  margin: 0;
+  font-family: Arial, sans-serif;
+  color: #333;
+  background: #fff;
 }
 
 .hero {
-    background: linear-gradient(to right, #4CAF50, #FFEB3B);
-    height: 90vh;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    color: white;
-    text-align: center;
+  background: linear-gradient(to right, #4CAF50, #FFEB3B);
+  height: 90vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  text-align: center;
 }
 
-.hero .overlay {
-    background-color: rgba(0, 0, 0, 0.3);
-    padding: 50px;
-    border-radius: 10px;
+.overlay {
+  background-color: rgba(0, 0, 0, 0.3);
+  padding: 50px;
+  border-radius: 10px;
 }
 
 .about, .contacto {
-    padding: 50px 20px;
-    text-align: center;
-    background-color: #f4fbe8;
+  padding: 50px 20px;
+  text-align: center;
+  background-color: #f4fbe8;
 }
 
 .service {
-    height: 250px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    color: #222;
-    font-size: 1.8em;
-    font-weight: bold;
+  height: 250px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: bold;
+  font-size: 1.6em;
+  text-align: center;
 }
 
-/* Secciones con colores distintos */
-.section1 { background-color: #e8f5e9; }  /* verde claro */
-.section2 { background-color: #fffde7; }  /* amarillo suave */
-.section3 { background-color: #fce8b2; }  /* beige dorado */
-.section4 { background-color: #d0f0c0; }  /* verde pasto */
-.section5 { background-color: #f9fbe7; }  /* crema claro */
-.section6 { background-color: #e1f5fe; }  /* celeste claro */
+.section1 { background-color: #e8f5e9; }
+.section2 { background-color: #fffde7; }
+.section3 { background-color: #fce8b2; }
+.section4 { background-color: #d0f0c0; }
+.section5 { background-color: #f9fbe7; }
+.section6 { background-color: #e1f5fe; }
 
 footer {
-    background: #2f3e2f;
-    color: white;
-    text-align: center;
-    padding: 20px;
-    font-size: 0.9em;
+  background: #2f3e2f;
+  color: white;
+  text-align: center;
+  padding: 20px;
 }
 
 .whatsapp-fixed {
-    position: fixed;
-    bottom: 20px;
-    right: 20px;
-    background: #25D366;
-    color: white;
-    font-size: 26px;
-    padding: 12px 16px;
-    border-radius: 50%;
-    text-decoration: none;
-    box-shadow: 0 0 10px rgba(0,0,0,0.3);
-    z-index: 999;
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  background: #25D366;
+  color: white;
+  font-size: 26px;
+  padding: 12px 16px;
+  border-radius: 50%;
+  text-decoration: none;
+  z-index: 999;
 }
