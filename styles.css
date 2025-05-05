@@ -48,6 +48,12 @@ body {
 .section3 { background-color: #fce8b2; color: #222; }
 .section6 { background-color: #e1f5fe; color: #222; }
 
+/* Sección 1 con imagen ambientes */
+.section1 {
+  background-image: url('ambientes.jpeg');
+  color: white;
+  text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.6);
+}
 /* Sección 4 con imagen del dron */
 .section4 {
   background-image: url('dron.jpg');
