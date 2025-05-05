@@ -46,12 +46,18 @@ body {
 .section1 { background-color: #e8f5e9; color: #222; }
 .section2 { background-color: #fffde7; color: #222; }
 .section3 { background-color: #fce8b2; color: #222; }
-.section5 { background-color: #f9fbe7; color: #222; }
 .section6 { background-color: #e1f5fe; color: #222; }
 
 /* Sección 4 con imagen del dron */
 .section4 {
   background-image: url('dron.jpg');
+  color: white;
+  text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.6);
+}
+
+/* Sección 5 con imagen (usando asesoramiento.jpg) */
+.section5 {
+  background-image: url('asesoramiento.jpg');
   color: white;
   text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.6);
 }
