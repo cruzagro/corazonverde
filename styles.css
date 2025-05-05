@@ -25,27 +25,36 @@ body {
   padding: 50px 20px;
   text-align: center;
   background-color: #f4fbe8;
+  color: #222;
 }
 
 .service {
-  .service {
-  min-height: 400px; /* o 500px si querés más */
+  min-height: 400px;
   display: flex;
   align-items: center;
   justify-content: center;
   font-weight: bold;
   font-size: 1.6em;
   text-align: center;
-  padding: 40px 20px
+  padding: 40px 20px;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  color: white;
+  text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.6);
 }
 
-.section1 { background-color: #e8f5e9; }
-.section2 { background-color: #fffde7; }
-.section3 { background-color: #fce8b2; }
-.section4 { background-image: url('dron.jpg');
- }
-.section5 { background-color: #f9fbe7; }
-.section6 { background-color: #e1f5fe; }
+/* Secciones con fondo de color */
+.section1 { background-color: #e8f5e9; color: #222; text-shadow: none; }
+.section2 { background-color: #fffde7; color: #222; text-shadow: none; }
+.section3 { background-color: #fce8b2; color: #222; text-shadow: none; }
+.section5 { background-color: #f9fbe7; color: #222; text-shadow: none; }
+.section6 { background-color: #e1f5fe; color: #222; text-shadow: none; }
+
+/* Sección 4 con imagen del dron */
+.section4 {
+  background-image: url('dron.jpg');
+}
 
 footer {
   background: #2f3e2f;
