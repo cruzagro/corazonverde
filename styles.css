@@ -42,7 +42,11 @@ body {
 .section1 { background-color: #e8f5e9; }
 .section2 { background-color: #fffde7; }
 .section3 { background-color: #fce8b2; }
-.section4 { background-color: #d0f0c0; }
+.section4 { background-image: url('dron.jpg');
+background-size: cover;
+background-position: center;
+background-repeat: no-repeat;
+ }
 .section5 { background-color: #f9fbe7; }
 .section6 { background-color: #e1f5fe; }
 
