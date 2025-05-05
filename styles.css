@@ -28,13 +28,15 @@ body {
 }
 
 .service {
-  height: 250px;
+  .service {
+  min-height: 400px; /* o 500px si querés más */
   display: flex;
   align-items: center;
   justify-content: center;
   font-weight: bold;
   font-size: 1.6em;
   text-align: center;
+  padding: 40px 20px
 }
 
 .section1 { background-color: #e8f5e9; }
