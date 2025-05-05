@@ -54,6 +54,13 @@ body {
   color: white;
   text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.6);
 }
+
+/* Sección 2 con imagen diagnostico*/
+.section4 {
+  background-image: url('diagnostico.jpeg');
+  color: white;
+  text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.6);
+}
 /* Sección 4 con imagen del dron */
 .section4 {
   background-image: url('dron.jpg');
