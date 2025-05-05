@@ -1,61 +1,83 @@
-<!DOCTYPE html>
-<html lang="es">
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Corazón Verde - Servicios Agropecuarios</title>
-  <link rel="stylesheet" href="styles.css" />
-  <link rel="icon" href="favicon.ico" type="image/x-icon" />
-</head>
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  color: #333;
+  background: #fff;
+}
 
-<body>
+.hero {
+  background: linear-gradient(to right, #4CAF50, #FFEB3B);
+  height: 90vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  text-align: center;
+}
 
-  <header class="hero">
-    <div class="overlay">
-      <h1>Corazón Verde</h1>
-      <p>Servicios Agropecuarios de Precisión</p>
-    </div>
-  </header>
+.overlay {
+  background-color: rgba(0, 0, 0, 0.3);
+  padding: 50px;
+  border-radius: 10px;
+}
 
-  <section class="about">
-    <h2>¿Quiénes somos?</h2>
-    <p>Somos ingenieros agrónomos que brindamos soluciones de calidad al productor rural, integrando tecnología, conocimiento y cercanía con el campo.</p>
-  </section>
+.about, .contacto {
+  padding: 50px 20px;
+  text-align: center;
+  background-color: #f4fbe8;
+  color: #222;
+}
 
-  <section class="service section1">
-    <h2>Mapeo por ambientes</h2>
-  </section>
+.service {
+  min-height: 400px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: bold;
+  font-size: 1.6em;
+  text-align: center;
+  padding: 40px 20px;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
 
-  <section class="service section2">
-    <h2>Diagnóstico y muestreo de suelos</h2>
-  </section>
+/* Secciones con fondo de color */
+.section1 { background-color: #e8f5e9; color: #222; }
+.section2 { background-color: #fffde7; color: #222; }
+.section3 { background-color: #fce8b2; color: #222; }
+.section6 { background-color: #e1f5fe; color: #222; }
 
-  <section class="service section3">
-    <h2>Prescripción variable</h2>
-  </section>
+/* Sección 4 con imagen del dron */
+.section4 {
+  background-image: url('dron.jpg');
+  color: white;
+  text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.6);
+}
 
-  <section class="service section4">
-    <h2>Aplicación y Monitoreo con drones</h2>
-  </section>
+/* Sección 5 con imagen (usando asesoramiento.jpg) */
+.section5 {
+  background-image: url('asesoramiento.jpg');
+  color: white;
+  text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.6);
+}
 
-  <section class="service section5">
-    <h2>Monitoreo de cultivos</h2>
-  </section>
+footer {
+  background: #2f3e2f;
+  color: white;
+  text-align: center;
+  padding: 20px;
+}
 
-  <section class="service section6">
-    <h2>Asesoramiento técnico personalizado</h2>
-  </section>
-
-  <section class="contacto">
-    <h2>Contacto</h2>
-    <p>Escribinos por WhatsApp para más información.</p>
-  </section>
-
-  <a href="https://wa.me/59898887725" target="_blank" class="whatsapp-fixed">💬</a>
-
-  <footer>
-    <p>&copy; 2025 Corazón Verde - Todos los derechos reservados</p>
-  </footer>
-
-</body>
-</html>
+.whatsapp-fixed {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  background: #25D366;
+  color: white;
+  font-size: 26px;
+  padding: 12px 16px;
+  border-radius: 50%;
+  text-decoration: none;
+  z-index: 999;
+}
